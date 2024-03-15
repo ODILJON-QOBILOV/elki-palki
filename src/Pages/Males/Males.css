@@ -1,0 +1,46 @@
+.mMain-box {
+  display: flex;
+  align-items: start;
+  gap: 3px;
+  .first-p {
+    color: rgb(0, 35, 196);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+  }
+  span {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: line-through;
+  }
+}
+
+.mMain-s1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0 100px;
+}
+
+
+.img-box {
+    transition: .3s;
+    border: 1px solid white;
+}
+
+.img-box:hover {
+    transform: translate(0, -10px);
+    transition: .3s ease;
+    border: 1px solid rgba(179, 34, 153, 0.5);
+    border-radius: 5px;
+}
